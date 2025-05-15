@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Neutral */
+  --Neutral-900: hsl(227, 75%, 14%);
+  --Neutral-800: hsl(226, 25%, 17%);
+  --Neutral-700: hsl(225, 23%, 24%);
+  --Neutral-600: hsl(226, 11%, 37%);
+  --Neutral-300: hsl(0, 0%, 78%);
+  --Neutral-200: hsl(217, 61%, 90%);
+  --Neutral-100: hsl(0, 0%, 93%);
+  --Neutral-0: hsl(200, 60%, 99%);
+
+
+/* red */
+--Red-400: hsl(3, 86%, 64%);
+--Red-500: hsl(3, 71%, 56%);
+--Red-700: hsl(3, 77%, 44%);
+
+
+--Light-Gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+--Dark-Gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+
+--Font-size: 16px;
+}
+
+body{
+    background: hsl(227, 75%, 14%);
+    width: 100%;
+    height: 100%;
+}
+.main-container{
+    /* background: red; */
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    padding-top: 10px;
+   
+}
+.top-logo{
+  background:hsl(225, 23%, 24%);
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between;
+  
+  }
+  .left{
+    padding: 10px;
+ 
+.right{
+    /* border-radius: 10px; */
+}
+  }
+.top-logo .right{
+border-radius: 10px;
+}
+.top-logo .right:hover{
+
+}
+  
+.right{
+    padding: 10px;
+
+}
+
+.top-logo .img-2{
+        background: hsl(226, 11%, 37%);
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+}
+
+
+
+.header{
+  margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /* background: blue; */
+    justify-content: space-between;
+}
+.heading{
+    color: var(--Neutral-300);
+}
+
+
+
+.navbar nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.navbar nav ul li{
+    background: var(--Neutral-600);
+    gap: 20px;
+    padding: 10px;
+    
+}
+.navbar nav ul li:hover{
+    background: var(--Red-500);
+    border: var(--Red-700);
+}
+
+ .navbar nav ul .list-1{
+border-radius: 10px;
+}
+
+ .navbar nav ul .list-2{
+ 
+    border-radius: 10px;
+}
+ .navbar nav ul .list-3{
+
+    border-radius: 10px;
+}
+
+
+.body-content{
+    display: grid;
+    grid-template-columns: repeat(3 ,324px);
+    grid-template-rows: repeat(12,180px);
+ /* background: green; */
+ gap: 2rem;
+ border-radius: 10px;
+ min-height: 20px;
+}
+.container{
+     background: var(--Neutral-700);
+    padding: 20px;
+    border-radius: 10px;
+    
+  
+}
+.top-container{
+    display: flex;
+    gap: 5px;
+}
+.top-container span{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+} 
+
+.top-container p{
+    color:var(--Neutral-300);
+
+}
+
+
+
+.top-header {
+  color: var(--Neutral-300);
+  font-size: 5em;
+  font-weight: 900;
+  padding: 2px 5px;
+  border-radius: 3px;
+    line-height: 1.4;
+  margin-top: 5px;
+}
+
+
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.bottom-container .btn-remove{
+    background:hsl(226, 11%, 37%) ;
+    border-radius: 10px;
+    width: 60px;
+    height:25px;
+}
+
+.bottom-container .btn-remove:hover{
+    background: var(--Red-500);
+    border: var(--Red-700);
+}
+.switch-button img{
+ width: 40px;
+ height: 20px;
+ background: var(--Neutral-700);
+ color: var(--Neutral-700);
+ border: var(--Neutral-700);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
