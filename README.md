@@ -1,6 +1,5 @@
            Frontend Mentor - Browser extensions manager UI solution
             
-            Frontend Mentor - Browser extensions manager UI solution
 
 Hi in Njuguna Peter NJoroge and here is the Browser extensions manager UI website;
 
